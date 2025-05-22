@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Run Script</title>
+</head>
+<body>
+  <div id="output"></div>
+
+  <script>
+    async function runCodeFromQuery() {
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get('code');
+      const output = document.getElementById('output');
+
+      if (!code) {
+        output.textContent = "";
+        return;
+      }
+
+      try {
+        const asyncFn = new Function('"use strict"; return (async () => {' + code + '})()');
+        const result = await asyncFn();
+        output.textContent = result != null ? result.toString() : '';
+      } catch (err) {
+        output.textContent = err.message;
+      }
+    }
+
+    runCodeFromQuery();
+  </script>
+</body>
+</html>
