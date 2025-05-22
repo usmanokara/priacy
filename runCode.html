@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Run Script</title>
+  <title>Run JS Function Body</title>
 </head>
 <body>
   <div id="output"></div>
@@ -19,6 +19,7 @@
       }
 
       try {
+        // Wrap code as async arrow function body, auto-execute it
         const asyncFn = new Function('"use strict"; return (async () => {' + code + '})()');
         const result = await asyncFn();
         output.textContent = result != null ? result.toString() : '';
