@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Run JS Function Body</title>
+  <title>Run Multiline JS Code</title>
 </head>
 <body>
-  <div id="output"></div>
+  <pre id="output" style="white-space: pre-wrap;"></pre>
 
   <script>
     async function runCodeFromQuery() {
@@ -19,12 +19,13 @@
       }
 
       try {
-        // Wrap code as async arrow function body, auto-execute it
-        const asyncFn = new Function('"use strict"; return (async () => {' + code + '})()');
+        // Wrap code in async arrow function body to support multiline and await
+        const asyncFn = new Function('"use strict"; return (async () => {\n' + code + '\n})()');
         const result = await asyncFn();
-        output.textContent = result != null ? result.toString() : '';
+
+        output.textContent = (result !== undefined && result !== null) ? result.toString() : '';
       } catch (err) {
-        output.textContent = err.message;
+        output.textContent = 'Error: ' + err.message;
       }
     }
 
