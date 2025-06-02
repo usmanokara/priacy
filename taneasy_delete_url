@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanEasy – Account Deletion Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #2c2c2c;
+        }
+        .contact {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Account Deletion Policy</h1>
+        <p>At <strong>TanEasy</strong>, we prioritize your privacy and provide a straightforward way to delete your account and associated data.</p>
+
+        <h2>How to Delete Your Account</h2>
+        <p>You can delete your account by following these steps:</p>
+        <ol>
+            <li>Open the <strong>TanEasy</strong> mobile app.</li>
+            <li>Navigate to <strong>Settings</strong> > <strong>Account</strong>.</li>
+            <li>Select <strong>Delete My Account</strong> and confirm your action.</li>
+            <li>Alternatively, you may email us at <span class="contact"><a href="mailto:info@taneasyapp.co.uk">info@taneasyapp.co.uk</a></span> from your registered email address to request account deletion.</li>
+        </ol>
+
+        <h2>What Happens to Your Data?</h2>
+        <p>Upon requesting account deletion, the following data will be removed:</p>
+        <ul>
+            <li>Your profile information (name, email, etc.)</li>
+            <li>Session history and app usage data</li>
+            <li>Stored preferences and linked device data</li>
+        </ul>
+        <p>In compliance with our data retention policy, your data will be permanently deleted within <strong>30 days</strong> of the request, unless retention is required by law.</p>
+
+        <h2>Need Assistance?</h2>
+        <p>If you encounter any issues or have questions about your data or the deletion process, feel free to contact our support team at <a href="mailto:info@taneasyapp.co.uk">info@taneasyapp.co.uk</a>.</p>
+    </div>
+</body>
+</html>
