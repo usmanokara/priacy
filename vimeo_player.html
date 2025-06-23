@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vimeo Player Events from URL Param</title>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+</head>
+<body>
+
+  <h2>Vimeo Embed (from URL param)</h2>
+
+  <iframe
+    id="vimeo-player"
+    width="640"
+    height="360"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+
+  <script>
+    // Get ?video=VIDEO_ID from URL
+    function getVideoIdFromURL() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('video');
+    }
+
+    const videoId = getVideoIdFromURL();
+
+    if (!videoId) {
+      document.body.innerHTML += '<p style="color:red;">❌ No video ID provided in the URL. Use ?video=VIDEO_ID</p>';
+    } else {
+      const iframe = document.getElementById('vimeo-player');
+      // Construct the Vimeo embed URL with required params
+      iframe.src = `https://player.vimeo.com/video/${videoId}?badge=0&autopause=0&player_id=0&app_id=58479`;
+
+      const player = new Vimeo.Player(iframe);
+
+      player.ready().then(() => {
+        console.log('✅ Player is ready');
+
+        player.on('timeupdate', function(data) {
+          console.log('📊 Progress:', data.seconds.toFixed(2), '/', data.duration.toFixed(2));
+        });
+
+        player.on('ended', function() {
+          console.log('🏁 Video ended');
+        });
+
+      }).catch(function(error) {
+        console.error('❌ Player failed to load:', error.name);
+      });
+    }
+  </script>
+
+</body>
+</html>
