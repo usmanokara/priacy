@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Learnaroo</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; }
+    h1, h2 { color: #333; }
+    p { margin-bottom: 14px; }
+    ul { margin-bottom: 14px; }
+  </style>
+</head>
+
+<body>
+
+<h1>Privacy Policy</h1>
+
+<p>
+This Privacy Policy explains how the iOS app <strong>Learnaroo</strong> handles personal data. 
+Protecting your privacy is a top priority. The app is designed to process only the data that is technically necessary. 
+Learnaroo does not use tracking tools, analytics services, profiling, advertising, or social media plugins.
+</p>
+
+<h2>Data Controller</h2>
+<p>
+<strong>Learnaroo</strong><br />
+Email: <a href="mailto:info@learnaroo.app">info@learnaroo.app</a>
+</p>
+
+<h2>Principle: No Processing of Personal Data</h2>
+<p>Learnaroo does not process any personal data that can identify you. In particular, the app does not process:</p>
+
+<ul>
+  <li>Names</li>
+  <li>Contact details</li>
+  <li>Location data</li>
+  <li>User behavior profiles</li>
+  <li>Device identifiers</li>
+  <li>IP addresses for analytics purposes</li>
+  <li>Content you enter into the app</li>
+</ul>
+
+<p>No data is transmitted to us or to third parties.</p>
+
+<h2>Processing by Apple</h2>
+<p>
+When downloading and using the app, Apple (App Store) may process technical data independently. 
+We have no influence over this data processing. Apple is solely responsible for it.
+</p>
+
+<p>
+If you have enabled sharing of diagnostics data in iOS settings, Apple may collect anonymous crash reports. 
+We do not receive or access this data.
+</p>
+
+<h2>Legal Basis</h2>
+<p>
+The app is designed in accordance with applicable data protection laws. Since no personal data is processed, 
+no specific legal basis is required.
+</p>
+
+<p>
+The app is not specifically targeted at users in the European Union. As no personal data is processed, 
+the General Data Protection Regulation (GDPR) does not apply.
+</p>
+
+<h2>Technical Data Processing (Local on Your Device)</h2>
+<p>To provide app functionality, the following data may be stored locally on your device only:</p>
+
+<ul>
+  <li>Your app preferences or saved items</li>
+  <li>Scheduled times for push notifications (if enabled)</li>
+</ul>
+
+<p>
+This data never leaves your device. You can disable push notifications at any time in your iOS settings.
+</p>
+
+<h2>Data Sources</h2>
+<p>
+Learnaroo may display information sourced from publicly available resources.
+</p>
+
+<h2>Technically Necessary Connection Data</h2>
+<p>
+When using the app, certain technical data (e.g., IP address) may be transmitted as part of normal network communication. 
+Learnaroo does not store or analyze this data.
+</p>
+
+<h2>No Data Sharing with Third Parties</h2>
+<p>
+Learnaroo does not share any data with third parties. The app does not use external analytics, tracking tools, 
+advertising services, or social media integrations. The app also does not include in-app purchases.
+</p>
+
+<h2>Your Rights</h2>
+<p>
+Since Learnaroo does not process or store personal data:
+</p>
+
+<ul>
+  <li>No access requests are applicable</li>
+  <li>No correction requests are applicable</li>
+  <li>No deletion requests are applicable</li>
+  <li>No data portability rights apply</li>
+</ul>
+
+<p>
+You remain in full control:<br />
+You can delete any stored data directly within the app.<br />
+You can uninstall the app at any time, which removes all locally stored data.
+</p>
+
+<h2>Contact / Communication</h2>
+<p>
+If you contact us via email or in-app contact form, you voluntarily provide personal data such as your name, 
+email address, and message. This data is used solely to respond to your request and is not shared with third parties.
+</p>
+
+<p>
+The data is stored only as long as necessary to process your request and is deleted afterward. 
+No profiling or additional use of the data takes place.
+</p>
+
+<h2>Changes to This Privacy Policy</h2>
+<p>
+We reserve the right to update this Privacy Policy if necessary, for example, due to new features or legal requirements. 
+The latest version will always be available in the App Store and within the app.
+</p>
+
+<h2>Contact</h2>
+<p>
+If you have any questions about this Privacy Policy, you can contact us at:<br />
+<a href="mailto:info@learnaroo.app">info@learnaroo.app</a>
+</p>
+
+</body>
+</html>
