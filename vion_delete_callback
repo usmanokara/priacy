@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VION - Account Deletion</title>
+
+  <meta
+    name="description"
+    content="Request deletion of your VION account and associated personal data."
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+      background: #f7f8fa;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #111827;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #6b7280;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 0 0 16px;
+      color: #111827;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 30px;
+      color: #111827;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .notice {
+      background: #f3f4f6;
+      border-left: 4px solid #111827;
+      padding: 16px 18px;
+      margin: 25px 0;
+      border-radius: 6px;
+    }
+
+    .email {
+      color: #111827;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .email:hover {
+      text-decoration: underline;
+    }
+
+    .steps {
+      counter-reset: step;
+      padding: 0;
+      list-style: none;
+    }
+
+    .steps li {
+      counter-increment: step;
+      position: relative;
+      padding-left: 42px;
+      margin-bottom: 18px;
+    }
+
+    .steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #111827;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 30px auto;
+      }
+
+      .card {
+        padding: 25px 20px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="card">
+
+      <div class="logo">VION</div>
+
+      <div class="subtitle">
+        VION.APP · Account & Data Deletion
+      </div>
+
+      <h1>Request Account Deletion</h1>
+
+      <p>
+        We respect your privacy and provide you with the ability to request
+        deletion of your VION account and associated personal data.
+      </p>
+
+      <div class="notice">
+        <strong>Important:</strong>
+        Account deletion is permanent and may not be reversible once
+        completed.
+      </div>
+
+      <h2>How to Request Deletion</h2>
+
+      <ol class="steps">
+        <li>
+          Send an email to
+          <a class="email" href="mailto:info@vionapp.net">
+            info@vionapp.net
+          </a>
+          using the email address associated with your VION account.
+        </li>
+
+        <li>
+          Use the subject line:
+          <strong>Account Deletion Request</strong>
+        </li>
+
+        <li>
+          Include the email address or account identifier associated with
+          your VION account.
+        </li>
+
+        <li>
+          Our team will verify the request and process the deletion.
+        </li>
+      </ol>
+
+      <h2>What Data Will Be Deleted?</h2>
+
+      <p>
+        When your account deletion request is approved and processed, we will
+        delete or anonymize personal information associated with your account,
+        where applicable.
+      </p>
+
+      <ul>
+        <li>Account information, such as your email address and name if provided.</li>
+        <li>Account-related profile information.</li>
+        <li>Personal data associated with your VION account.</li>
+        <li>Account-related usage information where applicable.</li>
+      </ul>
+
+      <h2>Data That May Be Retained</h2>
+
+      <p>
+        Certain information may need to be retained where required by law,
+        necessary for legitimate legal purposes, fraud prevention, security,
+        dispute resolution, or financial and accounting obligations.
+      </p>
+
+      <p>
+        Where information must be retained, it will be limited to what is
+        legally or operationally necessary and will be deleted when the
+        applicable retention requirement expires.
+      </p>
+
+      <h2>Subscriptions and Payments</h2>
+
+      <p>
+        VION subscriptions and purchases are processed through Apple App
+        Store, Google Play, or other applicable payment providers.
+      </p>
+
+      <p>
+        Deleting your VION account does not automatically cancel a subscription
+        managed through Apple or Google. Please cancel your subscription
+        separately through the relevant App Store or Google Play account to
+        prevent future renewal charges.
+      </p>
+
+      <h2>Processing Time</h2>
+
+      <p>
+        We will review and process account deletion requests within a
+        reasonable period after verifying the request. Processing time may
+        vary depending on the information involved and applicable legal
+        requirements.
+      </p>
+
+      <h2>Need Help?</h2>
+
+      <p>
+        If you have questions about account deletion or your personal data,
+        please contact us:
+      </p>
+
+      <p>
+        <strong>VION MGMT LLC-FZ</strong><br>
+        Meydan Grandstand, 6th floor<br>
+        Meydan Road, Nad Al Sheba<br>
+        Dubai, U.A.E.
+      </p>
+
+      <p>
+        Email:
+        <a class="email" href="mailto:info@vionapp.net">
+          info@vionapp.net
+        </a>
+      </p>
+
+      <h2>Privacy Policy</h2>
+
+      <p>
+        For more information about how VION collects, uses, protects, and
+        retains information, please review our Privacy Policy.
+      </p>
+
+      <p>
+        <a class="email" href="https://vionapp.net/" target="_blank" rel="noopener">
+          Visit VION.APP
+        </a>
+      </p>
+
+    </div>
+
+    <footer>
+      © 2026 VIONAPP. All rights reserved.
+    </footer>
+
+  </main>
+
+</body>
+</html>
